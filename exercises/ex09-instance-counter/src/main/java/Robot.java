@@ -47,7 +47,7 @@ public class Robot {
    * @return this Robot's id
    */
   public int getId() {
-    return this.name;
+    return this.id;
   }
 
   /**
@@ -56,6 +56,6 @@ public class Robot {
    * @return this Robot's name
    */
   public String getName() {
-    return this.id;
+    return this.name;
   }
 }
