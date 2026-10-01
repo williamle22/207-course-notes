@@ -36,6 +36,6 @@ public class Word implements Comparable<Word> {
    */
   @Override
   public int compareTo(Word other) {
-      return this.text.length() - other.getText().length();
+    return this.text.length() - other.getText().length();
   }
 }
